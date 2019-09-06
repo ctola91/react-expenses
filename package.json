@@ -25,10 +25,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint",
-      "post-merge": "npm install",
-      "post-rewrite": "npm install"
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn lint",
+      "post-merge": "yarn install",
+      "post-rewrite": "yarn install"
     }
   },
   "eslintConfig": {
